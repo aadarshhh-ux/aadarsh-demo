@@ -90,10 +90,16 @@ print("Remainder:", num1 % num2)"""
 print("Area of the square:", side * side)"""
 
 #WAP to input 2 floating point number & print their average
-a = float(input("enter first number:"))
+"""a = float(input("enter first number:"))
 b = float(input("enter second number:"))
 average = (a+b)/2
-print("Average of two numbers:", average)
+print("Average of two numbers:", average)"""
+
+#WPA to input 2 int number a and b print True if a is greater than  or equal to b if not print false
+"""a = int(input("enter number" ))
+b = int(input("enter number"))
+print (a>=b)"""
+
 
 
 
