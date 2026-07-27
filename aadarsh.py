@@ -86,8 +86,15 @@ print("Division:", num1 / num2)
 print("Remainder:", num1 % num2)"""
 
 # WAP to input of a square and print its area 
-side = float(input("enter side: "))
-print("Area of the square:", side * side)
+"""side = float(input("enter side: "))
+print("Area of the square:", side * side)"""
+
+#WAP to input 2 floating point number & print their average
+a = float(input("enter first number:"))
+b = float(input("enter second number:"))
+average = (a+b)/2
+print("Average of two numbers:", average)
+
 
 
 
