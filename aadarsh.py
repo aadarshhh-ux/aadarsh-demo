@@ -48,7 +48,7 @@ num **= 5 #num = num ** 5
 print( "num:",num)"""
 
 #logical oprations
-print( not True) #answer is false
+"""print( not True) #answer is false
 print( not False) #answer is true
 a = 40 
 b = 20
@@ -59,7 +59,13 @@ print( (a<b ))
 val1 = True
 val2 = False
 print(val1 and val2) #answer is false
-print(val1 or val2) #answer is true
+print(val1 or val2) #answer is true"""
+
+#type conversion
+a = int ("2")
+b = 2.5
+print(type(a))
+print(a+b)
 
 
 
