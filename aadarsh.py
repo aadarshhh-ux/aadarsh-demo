@@ -67,11 +67,27 @@ b = 2.5
 print(type(a))
 print(a+b)"""
 
+ #input function
+"""name = input("Enter your name: ")
+age = input("Enter your age: ")
 
+print("My name is ",name,"and my age is ",age)
+val = input ("enter some value :")
+print(type (val),val)"""
 
+# write a program to take two numbers from user and print their sum, difference, product, division and remainder
 
+"""num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))  
+print("Sum:", num1 + num2)
+print("Difference:", num1 - num2)
+print("Product:", num1 * num2)
+print("Division:", num1 / num2)
+print("Remainder:", num1 % num2)"""
 
-
+# WAP to input of a square and print its area 
+side = float(input("enter side: "))
+print("Area of the square:", side * side)
 
 
 
