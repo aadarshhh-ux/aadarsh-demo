@@ -62,10 +62,10 @@ print(val1 and val2) #answer is false
 print(val1 or val2) #answer is true"""
 
 #type conversion
-a = int ("2")
+"""a = int ("2")
 b = 2.5
 print(type(a))
-print(a+b)
+print(a+b)"""
 
 
 
