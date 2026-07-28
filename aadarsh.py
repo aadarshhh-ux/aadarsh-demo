@@ -116,13 +116,17 @@ print("length of final string is:", length)"""
 
 #to finde specific character in string we can use indexing
 #for example if we want to find 1st character of string we can use index
-str = "aadarsh dubey"
+"""str = "aadarsh dubey"
 print(str[1])  # Output: a
 str1 = " my age is 20 "
-print(str1[3])  # Output: # it also print empty space because space is also a character
+print(str1[3]) """ # Output: # it also print empty space because space is also a character
 
-
-
-
-
-
+#slicing in string
+#for example if we want to find 1st character of string we can use index
+#also we have negative indexing in string
+str = "aadarsh dubey"
+print(str[0:3])  # Output: aad
+print(str[8:len(str)]) # Output:  dubey # len(str) is used to find the length of string it will print till the end of string
+print(str[:4]) #[0:4]
+print(str[5:]) #[5:len(str)]
+print(str[-5:-1]) # Output: ube # it will print from 5th last character to 1st last character
