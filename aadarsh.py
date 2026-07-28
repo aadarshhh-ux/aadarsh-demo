@@ -100,6 +100,12 @@ print("Average of two numbers:", average)"""
 b = int(input("enter number"))
 print (a>=b)"""
 
+#for next line in print statement we can use \n
+#for space we can use \t
+
+a = "hii my name is aadarsh \nmy age is 20 "
+b = "\nhii my name is aadarsh \t my age is 20 "
+print(a,b)
 
 
 
