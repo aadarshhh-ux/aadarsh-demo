@@ -76,7 +76,6 @@ val = input ("enter some value :")
 print(type (val),val)"""
 
 # write a program to take two numbers from user and print their sum, difference, product, division and remainder
-
 """num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))  
 print("Sum:", num1 + num2)
@@ -102,16 +101,25 @@ print (a>=b)"""
 
 #for next line in print statement we can use \n
 #for space we can use \t
-
-a = "hii my name is aadarsh \nmy age is 20 "
+"""a = "hii my name is aadarsh \nmy age is 20 "
 b = "\nhii my name is aadarsh \t my age is 20 "
-print(a,b)
+print(a,b)"""
 
+# for adding two strings we can use + operator
+#and for finding length of string we can use len() function
+"""str1 = "hii my name is aadarsh"
+str2 = " my age is 20"
+final_str = str1 + " "+ str2
+print(final_str)
+length = len(final_str)
+print("length of final string is:", length)"""
 
-
-
-
-
+#to finde specific character in string we can use indexing
+#for example if we want to find 1st character of string we can use index
+str = "aadarsh dubey"
+print(str[1])  # Output: a
+str1 = " my age is 20 "
+print(str1[3])  # Output: # it also print empty space because space is also a character
 
 
 
