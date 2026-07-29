@@ -195,7 +195,7 @@ else:
 
 
 # list in python
-students = ["Aadarsh", "Rohit", "Sakshi", "Arjun"]
+"""students = ["Aadarsh", "Rohit", "Sakshi", "Arjun"]
 print(students[1]) # Output: Rohit
 students[0] = "Aaditya" # changing the value of the first element , Replacing the main value and adding new value
 print(students) # Output: ['Aaditya', 'Rohit', 'Sakshi', 'Arjun']
@@ -220,4 +220,40 @@ print(list2) # Output: [9, 8, 10, 7, 6]
 list2.remove(8) # removing an element from the list
 print(list2) # Output: [9, 10, 7, 6]
 list2.pop(1) # removing the element at index 1 from the list
-print(list2) # Output: [9, 10, 7]   
+print(list2) # Output: [9, 10, 7]   """
+
+
+#tuples in python
+"""tup = (1, 2, 3, 4, 5, 5, 5)
+tup1 = (1,) #single element tuple should have a comma after the element
+print(type(tup)) # Output: <class 'tuple'>
+print(tup[2]) # Output: 3
+print(tup1) # Output: (1,)
+print(tup.index(5)) # Output: 4 # it will return the index of the first occurrence of the element
+print(tup.count(5)) # Output: 3 # it will return the number of occurrences of the element"""
+
+#WAP to ask the user to enter name of their 3 favorite movies & store them in a liste
+"""a = input("enter your first favorite movie: " )
+b = input("enter your second favorite movie: ")
+c = input("enter your third favorite movie: ")
+movies = [a, b, c]
+print(movies)"""
+
+#WAP to check is a list contains a palindrome of elemnets 
+"""list1 =[1,2,3,2,1,]
+
+
+copylist1 = list1.copy()
+copylist1.reverse()
+
+if(copylist1 == list1):
+    print("palindrome")
+else:
+    print("not")"""
+
+#WAP to count the number of students with "A" grade in the following tuple ["C","D","A","A","B","B","A"]
+grade = ["C","D","A","A","B","B","A"]
+print(grade.count("A"))
+
+
+
