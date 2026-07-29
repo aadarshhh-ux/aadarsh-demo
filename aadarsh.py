@@ -1,16 +1,16 @@
-"""#print("hello")
-#print("My name is Aadarsh")
-#name = "Aadarsh"
-#age = 20
-#price = 100.66
-#old = True
-#ad = None
-#print("my name is ",name,"and my age is ",age,)
-#print(type(name))
-#print(type(age))
-#print(type(price))
-#print(type(old))
-#print(type(ad))"""
+"""print("hello")
+print("My name is Aadarsh")
+name = "Aadarsh"
+age = 20
+price = 100.66
+old = True
+ad = None
+print("my name is ",name,"and my age is ",age,)
+print(type(name))
+print(type(age))
+print(type(price))
+print(type(old))
+print(type(ad))"""
 
 #airthmatic oprations
 """a = 2
@@ -187,10 +187,17 @@ else:
     print("The greatest number is:", c)"""
 
 #WAP to check if a number is a multiple of 7 or not
-num = int(input("Enter a number: "))
+"""num = int(input("Enter a number: "))
 if (num % 7 == 0):
     print(num, "is a multiple of 7")
 else:
-    print(num, "is not a multiple of 7")
-    
+    print(num, "is not a multiple of 7")"""
+
+
+# list in python
+students = ["Aadarsh", "Rohit", "Sakshi", "Arjun"]
+print(students[1]) # Output: Rohit
+students[0] = "Aaditya" # changing the value of the first element , Replacing the main value and adding new value
+print(students) # Output: ['Aaditya', 'Rohit', 'Sakshi', 'Arjun']
+
 
