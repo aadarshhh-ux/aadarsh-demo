@@ -256,8 +256,18 @@ else:
 print(grade.count("A"))"""
 
 # store the above values in a list & sort them from "A" to "D"
-list = ["C","D","A","A","B","B","A"]
+"""list = ["C","D","A","A","B","B","A"]
 list.sort()
-print(list)
+print(list)"""
 
+#Dictionary in puthon
+dict = {
+    "name": 'aadarsh',
+    "sub": ['py',"java",'c'],
+    "topic":("dic","set"),
+    "age" : 20,
+    22.2 : 22.5
 
+}
+print(type(dict))
+print(dict)
