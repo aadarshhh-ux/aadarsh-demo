@@ -260,7 +260,7 @@ print(grade.count("A"))"""
 list.sort()
 print(list)"""
 
-#Dictionary in puthon
+#Dictionary in Python
 dict = {
     "name": 'aadarsh',
     "sub": ['py',"java",'c'],
@@ -270,4 +270,11 @@ dict = {
 
 }
 print(type(dict))
+print(dict["name"])#it will print only name from dictionary
+dict["name"] = "adarshh"
+dict["age"]  = '21'
+dict["surname"] = "dubey"
 print(dict)
+
+null_dict ={}
+print(null_dict)
