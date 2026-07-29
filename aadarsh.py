@@ -200,4 +200,24 @@ print(students[1]) # Output: Rohit
 students[0] = "Aaditya" # changing the value of the first element , Replacing the main value and adding new value
 print(students) # Output: ['Aaditya', 'Rohit', 'Sakshi', 'Arjun']
 
-
+list1 = [3, 1, 2, 5, 4]
+list2 = [ 9, 8, 7, 6]
+list3 = ["apple", "cherry", "banana"] # list also applicable for string
+list1.append(6) # adding an element to the end of the list
+print(list1) # Output: [3, 1, 2, 5, 4, 6]
+list1.sort() # sorting the list in ascending order
+print(list1) # Output: [1, 2, 3, 4, 5, 6]
+list1.reverse() # reversing the list it mean not asecnding or descending it starts from backward
+print(list1) # Output: [6, 5, 4, 3, 2, 1]
+list2.sort(reverse=True) # sorting the list in descending order 
+print(list2) # Output: [9, 8, 7, 6]
+list3.sort() # sorting the list in ascending order
+print(list3) # Output: ['apple', 'banana', 'cherry']
+list3.reverse() # reversing the list
+print(list3) # Output: ['cherry', 'banana', 'apple']
+list2.insert(2, 10) # inserting an element at a specific index
+print(list2) # Output: [9, 8, 10, 7, 6]
+list2.remove(8) # removing an element from the list
+print(list2) # Output: [9, 10, 7, 6]
+list2.pop(1) # removing the element at index 1 from the list
+print(list2) # Output: [9, 10, 7]   
