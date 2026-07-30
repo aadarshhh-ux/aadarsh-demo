@@ -260,7 +260,7 @@ print(grade.count("A"))"""
 list.sort()
 print(list)"""
 
-#Dictionary in Python 
+#Dictionary in Python
 """dict = {
     "name": 'aadarsh',
     "sub": ['py',"java",'c'],
@@ -278,4 +278,38 @@ print(dict)
 
 null_dict ={}
 print(null_dict)"""
+
+#nested dictionary
+student = {
+    "name " : "aadarsh",
+    "subject" : {
+        "phy": 33,
+        "chem": 44,
+        "math": 55,
+    }
+
+}
+#dictionary method
+"""print(student)
+print(student["subject"])#for only subject
+print(student["subject"]["math"])# for math inside the sub
+print(list(student.keys()))#will returns all keys #list will convert it into a list type
+print(student.values())#eill returns all the values
+print(student.items())#it eill returns in the form of pairs
+
+#print(student["name2"]) #error
+print(student.get("name2")) # no error
+student.update({"city": "ashta"})
+print(student)"""
+
+#set in python
+set1 = {1,2,3,4,"hello", 5, 5 ,"hello "} #it will never print in order #it will never print aney thing again
+collection = set() #for empty set
+print(set1)
+print(len(set1))#ans is 7 repitted words are not included
+collection.add (7) #to add somtion in aney set
+set1.remove(5)
+print(collection)
+
+
 
