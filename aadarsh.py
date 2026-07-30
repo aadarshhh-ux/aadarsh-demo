@@ -303,14 +303,37 @@ student.update({"city": "ashta"})
 print(student)"""
 
 #set in python
-set1 = {1,2,3,4,"hello", 5, 5 ,"hello "} #it will never print in order #it will never print aney thing again
+"""set1 = {1,2,3,4,"hello", 5, 5 ,"hello "} #it will never print in order #it will never print aney thing again
 collection = set() #for empty set
 print(set1)
 print(len(set1))#ans is 7 repitted words are not included
 collection.add (7) #to add somtion in aney set
 set1.remove(5)#to remove somthing
 print(collection)
-set1.pop()
-#set1.clear()#willl clear all elemnt and make the set empty
-print(set1)
+set1.pop() #poprendom value
+set1.clear()#willl clear all elemnt and make the set empty
+print(set1)"""
+
+#union and intersetion in set 
+"""set1 = {1,2,3}
+set2 = {3,4,5}
+
+print(set1.union(set2)) #it will print {1,2,3,4,5}
+print(set1.intersection(set2))#it will return {3}"""
+
+#store following words meaning in a python dictionary [table  : "a piece of furniture","list of facts &figures"][cat:"a samall animal"]
+dict = {
+    "cat" : 'a samll animal',
+    "table":['a pieace of furniture','list of fscts & figures']
+}
+print(dict)
+
+
+
+
+
+
+
+
+
 
