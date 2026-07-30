@@ -26,7 +26,7 @@ print(a**b)#power #a ki power b"""
 """a = 33
 b = 55
 print(a==b) #answer is false
-print(a!=b) #answer is true
+print(a!=b) #answer is true 
 print(a>b) #answer is false
 print(a<b) #answer is true
 print(a>=b) #answer is false
@@ -194,7 +194,7 @@ else:
     print(num, "is not a multiple of 7")"""
 
 
-# list in python
+#list in python
 """students = ["Aadarsh", "Rohit", "Sakshi", "Arjun"]
 print(students[1]) # Output: Rohit
 students[0] = "Aaditya" # changing the value of the first element , Replacing the main value and adding new value
@@ -255,13 +255,13 @@ else:
 """grade = ["C","D","A","A","B","B","A"]
 print(grade.count("A"))"""
 
-# store the above values in a list & sort them from "A" to "D"
+#store the above values in a list & sort them from "A" to "D"
 """list = ["C","D","A","A","B","B","A"]
 list.sort()
 print(list)"""
 
-#Dictionary in Python
-dict = {
+#Dictionary in Python 
+"""dict = {
     "name": 'aadarsh',
     "sub": ['py',"java",'c'],
     "topic":("dic","set"),
@@ -269,7 +269,7 @@ dict = {
     22.2 : 22.5
 
 }
-print(type(dict))
+print(type(dict)) 
 print(dict["name"])#it will print only name from dictionary
 dict["name"] = "adarshh"
 dict["age"]  = '21'
@@ -277,4 +277,5 @@ dict["surname"] = "dubey"
 print(dict)
 
 null_dict ={}
-print(null_dict)
+print(null_dict)"""
+
