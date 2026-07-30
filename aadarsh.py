@@ -308,8 +308,9 @@ collection = set() #for empty set
 print(set1)
 print(len(set1))#ans is 7 repitted words are not included
 collection.add (7) #to add somtion in aney set
-set1.remove(5)
+set1.remove(5)#to remove somthing
 print(collection)
-
-
+set1.pop()
+#set1.clear()#willl clear all elemnt and make the set empty
+print(set1)
 
