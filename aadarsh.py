@@ -336,10 +336,50 @@ while i <=5:
 print ("loop ended")"""
 
 #print number 1 to 100 with the help of loop
-i = 1
-while i <= 100:
+"""i = 1
+while i <= 100: # stoping conditon
     print(i)
+    i+=1"""
+
+#print the number for 100 to 1 
+"""i = 100
+while i>=1: #stoping condition
+    print(i)
+    i-=1"""
+
+#print the multiplication table of a number n=3
+i = 1
+while i<=10:
+    print(3*i)
     i+=1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
