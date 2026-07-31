@@ -322,14 +322,17 @@ print(set1.union(set2)) #it will print {1,2,3,4,5}
 print(set1.intersection(set2))#it will return {3}"""
 
 #store following words meaning in a python dictionary [table  : "a piece of furniture","list of facts &figures"][cat:"a samall animal"]
-dict = {
+"""dict = {
     "cat" : 'a samll animal',
     "table":['a pieace of furniture','list of fscts & figures']
 }
-print(dict)
+print(dict)"""
 
-
-
+#loop
+i = 1
+while i <=5:
+    print("hello",i)
+    i+=1
 
 
 
