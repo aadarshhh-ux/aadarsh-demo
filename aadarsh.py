@@ -329,12 +329,17 @@ print(set1.intersection(set2))#it will return {3}"""
 print(dict)"""
 
 #loop
-i = 1
+"""i = 1
 while i <=5:
     print("hello",i)
     i+=1
+print ("loop ended")"""
 
-
+#print number 1 to 100 with the help of loop
+i = 1
+while i <= 100:
+    print(i)
+    i+=1
 
 
 
