@@ -395,13 +395,22 @@ for val in num :
     print(val)"""
 
 #for loop with else
-str = "aadarsh dubey"
+"""str = "aadarsh dubey"
 
 for char in str:
     print(char)
 else:
-    print("loop ended")    
+    print("loop ended") """   
 
+#for loop with brak
+str = "aadarsh dubey"
+for char in str:
+    if char == "d":
+        print("d is found")
+        break
+    print(char)
+else:
+    print("loop end")    
 
 
 
