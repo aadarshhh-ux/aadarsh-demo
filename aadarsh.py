@@ -353,13 +353,21 @@ while i<=10:
     print(3*i)
     i+=1"""
 
-#print the elements of the following list using a loop [1,4,9,16,25,36,49,64,81,100]
-num = [1,4,9,16,25,36,49,64,81,100]
+#pr::int the elements of the following list using a loop [1,4,9,16,25,36,49,64,81,100]
+"""num = [1,4,9,16,25,36,49,64,81,100]
 idx = 0
 while idx < len(num):
     print(num[idx])
-    idx +=1
+    idx +=1"""
 
+num = (1,4,9,16,25,36,49,64,81,100)
+x = 36
+i = 0
+while i < len(num):
+    if num[i] == x:
+        print("found", i)
+        break
+    i += 1
 
 
 
