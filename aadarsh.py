@@ -403,16 +403,19 @@ else:
     print("loop ended") """   
 
 #for loop with brak
-str = "aadarsh dubey"
+"""str = "aadarsh dubey"
 for char in str:
     if char == "d":
         print("d is found")
         break
     print(char)
 else:
-    print("loop end")    
+    print("loop end") """   
 
-
+# print the elements of the following list using a for loop [1,4,9,16,25,36,49,64,81,100]
+num = [1,4,9,16,25,36,49,64,81,100]
+for val in  num :
+    print(val)
 
 
 
