@@ -418,16 +418,20 @@ for val in  num :
     print(val)"""
 
 #search for a number x in this tuple using loop (1,4,9,16,25,36,49,64,81,100)
-num = (1,4,9,16,25,36,49,64,81,100)
+"""num = (1,4,9,16,25,36,49,64,81,100)
 x = int(input("enter number"))
 for i in num:
     if i == x:
         print("found")
         break
     else:
-        print("not found")
-        
+        print("not found")"""
 
+# range function in python
+seq = range(10) #it will generate a sequence of numbers from 0  to 9
+
+for i in seq:
+    print(i)
 
 
 
