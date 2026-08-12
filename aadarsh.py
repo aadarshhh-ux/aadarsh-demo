@@ -443,11 +443,15 @@ for i in seq:
     print(i)"""
 
 #print the multiplication table of a number n
-n = int(input("enter number"))
+"""n = int(input("enter number"))
 for i in range(1,11):
-    print(n*i)
+    print(n*i)"""
 
+#pass statement
+for i in range (10):
+    pass #it will do nothing it is used as a placeholder
 
+print("aadarsh")
 
 
 
