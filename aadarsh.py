@@ -360,17 +360,32 @@ while idx < len(num):
     print(num[idx])
     idx +=1"""
 
-num = (1,4,9,16,25,36,49,64,81,100)
+"""num = (1,4,9,16,25,36,49,64,81,100)
 x = 36
 i = 0
 while i < len(num):
     if num[i] == x:
         print("found", i)
         break
+    i += 1"""
+
+#break statument
+"""i = 1
+while i <= 5:
+    print(i)
+    if (i == 3):
+        break   #loop will end when i is 3 
     i += 1
 
+print('loop end')"""
 
-
+i = 0 
+while i <= 5:
+    if(i == 3):
+        i += 1
+        continue #it will skio the current iteration and move to the next iteraton
+    print(i)
+    i += 1
 
 
 
