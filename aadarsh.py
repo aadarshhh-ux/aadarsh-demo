@@ -454,17 +454,29 @@ for i in range(1,11):
 print("aadarsh")"""
 
 #wap to find the sum for natural number
-n = 5 
+"""n = 5 
 
 sum = 0 
 for i in range(1,n+1):
     sum += i
 
+print ("total sum", sum)"""
 
-print ("total sum", sum)
-
-
-
+#wap to find the factorial of a number (for)
+"""n =  5
+fact = 1
+i = 1
+while i <=n:
+    fact *=i 
+    i +=1
+print("factorial of", n, "is", fact)  """  
+ 
+#with while
+n  = 5
+fact =1 
+for i in range(1,n+1):
+    fact *= i
+print("factorial of", n, "is", fact)
 
 
 
