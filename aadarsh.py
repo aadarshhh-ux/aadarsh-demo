@@ -428,14 +428,19 @@ for i in num:
         print("not found")"""
 
 # range function in python
-seq = range(10) #it will generate a sequence of numbers from 0  to 9
+"""seq = range(10) #it will generate a sequence of numbers from 0  to 9
 
 for i in seq:
+    print(i)"""
+
+"""for i in range (10): # range(stop)
+    print(i)"""
+
+"""for i in range (1 ,10): #range(start,stop)
+        print(i)"""
+
+for i in range (1,10,2): #range(start,stop,step)
     print(i)
-
-
-
-
 
 
 
