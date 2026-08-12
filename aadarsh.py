@@ -379,16 +379,28 @@ while i <= 5:
 
 print('loop end')"""
 
-i = 0 
+#continue statment
+"""i = 0 
 while i <= 5:
     if(i == 3):
         i += 1
         continue #it will skio the current iteration and move to the next iteraton
     print(i)
-    i += 1
+    i += 1"""
 
+#for loop
+"""num = [1,2,3,4,5,6,7,8,9,10]
 
+for val in num :
+    print(val)"""
 
+#for loop with else
+str = "aadarsh dubey"
+
+for char in str:
+    print(char)
+else:
+    print("loop ended")    
 
 
 
