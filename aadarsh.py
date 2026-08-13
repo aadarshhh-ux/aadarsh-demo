@@ -519,16 +519,23 @@ cal_print(cities)#function calling with cities list as argument
 cal_print(heroes)#function calling with heroes list as argument"""
 
 #wap to find the factorial of n (n is the parameter)
-n = int(input("enter number"))
+"""n = int(input("enter number"))
 
 def cal_fact(n):
     fact = 1
     for i in range ( 1 , n+1):
         fact *= i 
     print(fact)    
-cal_fact(n)
+cal_fact(n)"""
 
+#wap to convert usd to inr
+n = int(input("enter usd"))
 
+def cal_inr(n):
+    inr = n*95.38
+    print(inr)
+    return inr
+cal_inr(n)
 
 
 
