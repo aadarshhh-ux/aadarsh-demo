@@ -497,16 +497,26 @@ cal_sum(10,20) #function calling , argument passing   """
 cal_avg(3,5,7) #function calling """
 
 #wap to print the length of a list (list is the parameter)
-cities = ["ashta","indore","pune","mumbai"]
+"""cities = ["ashta","indore","pune","mumbai"]
 heroes = ["ironman","spiderman","batman","superman"]
 def cal_len(list):
     print(len(list))
 
 cal_len(cities)#function calling with cities list as argument
-cal_len(heroes)#function calling with heroes list as argument
+cal_len(heroes)#function calling with heroes list as argument"""
 
+#wap to print the list in the asme line
+cities = ["ashta","indore","pune","mumbai"]
+heroes = ["ironman","spiderman","batman","superman"]
+def cal_len(list):
+    print(len(list))
 
+def cal_print(list):
+    for item in list:
+        print(item, end=" ")
 
+cal_print(cities)#function calling with cities list as argument
+cal_print(heroes)#function calling with heroes list as argument
 
 
 
