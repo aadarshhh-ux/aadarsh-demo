@@ -479,14 +479,23 @@ for i in range(1,n+1):
 print("factorial of", n, "is", fact)"""
 
 #defingin a function
-
-def cal_sum(a,b):
+"""def cal_sum(a,b): #function defination
     sum = a + b
     print(sum)
     return sum
-cal_sum(3,5)
 
-cal_sum(10,20)
+cal_sum(3,5) #function calling
+
+cal_sum(10,20) #function calling , argument passing   """
+
+#calculat average of 3 numbers using function
+def cal_avg(a,b,c):
+    sum = a+b+c
+    avg = sum/3
+    print(avg)
+    return avg
+cal_avg(3,5,7) #function calling 
+
 
 
 
