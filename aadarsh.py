@@ -280,7 +280,7 @@ null_dict ={}
 print(null_dict)"""
 
 #nested dictionary
-student = {
+"""student = {
     "name " : "aadarsh",
     "subject" : {
         "phy": 33,
@@ -288,7 +288,7 @@ student = {
         "math": 55,
     }
 
-}
+}"""
 #dictionary method
 """print(student)
 print(student["subject"])#for only subject
@@ -472,12 +472,21 @@ while i <=n:
 print("factorial of", n, "is", fact)  """  
  
 #with while
-n  = 5
+"""n  = 5
 fact =1 
 for i in range(1,n+1):
     fact *= i
-print("factorial of", n, "is", fact)
+print("factorial of", n, "is", fact)"""
 
+#defingin a function
+
+def cal_sum(a,b):
+    sum = a + b
+    print(sum)
+    return sum
+cal_sum(3,5)
+
+cal_sum(10,20)
 
 
 
