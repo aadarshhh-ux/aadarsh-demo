@@ -506,7 +506,7 @@ cal_len(cities)#function calling with cities list as argument
 cal_len(heroes)#function calling with heroes list as argument"""
 
 #wap to print the list in the asme line
-cities = ["ashta","indore","pune","mumbai"]
+"""cities = ["ashta","indore","pune","mumbai"]
 heroes = ["ironman","spiderman","batman","superman"]
 def cal_len(list):
     print(len(list))
@@ -516,7 +516,33 @@ def cal_print(list):
         print(item, end=" ")
 
 cal_print(cities)#function calling with cities list as argument
-cal_print(heroes)#function calling with heroes list as argument
+cal_print(heroes)#function calling with heroes list as argument"""
+
+#wap to find the factorial of n (n is the parameter)
+n = int(input("enter number"))
+
+def cal_fact(n):
+    fact = 1
+    for i in range ( 1 , n+1):
+        fact *= i 
+    print(fact)    
+cal_fact(n)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
