@@ -489,12 +489,23 @@ cal_sum(3,5) #function calling
 cal_sum(10,20) #function calling , argument passing   """
 
 #calculat average of 3 numbers using function
-def cal_avg(a,b,c):
+"""def cal_avg(a,b,c):
     sum = a+b+c
     avg = sum/3
     print(avg)
     return avg
-cal_avg(3,5,7) #function calling 
+cal_avg(3,5,7) #function calling """
+
+#wap to print the length of a list (list is the parameter)
+cities = ["ashta","indore","pune","mumbai"]
+heroes = ["ironman","spiderman","batman","superman"]
+def cal_len(list):
+    print(len(list))
+
+cal_len(cities)#function calling with cities list as argument
+cal_len(heroes)#function calling with heroes list as argument
+
+
 
 
 
